@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Halloween Fortune Teller</title>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Nosifer|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+  	<div class="data-container">
+  		<h3>Consult Esmerelda for Your Fortune</h3>
+  		<p class="instructions">Submit your fortune data in the following format with each on a new line:</p>
+  		<p class="example">"subject" => "Bob", "object" => "cookies"</p>
+  		<textarea class="fortune-data"> </textarea>
+
+
+  		<p class="instructions">Submit your possible fortunes in the following format, each on a new line</p>
+  		<p class="example">Someday, ${subject} will give me ${object}</p>
+  		<textarea class="fortune-text"> </textarea>
+  	</div>
+  	<div class="results-container">
+  		<div class="generate-custom">Esmerelda, give me my fortune</div>
+
+  		<div class="fortune-result"></div>
+
+  		<div class="dislike-fortune">I don't like this fortune, please give me another</div>
+  	</div>
+
+  	<div class="norns"><img src="assets/images/fortune_teller.jpg"></div>
+  </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascripts/fortune_teller.js"></script>
+	<script type="text/javascript" src="assets/javascripts/clean_user_data.js"></script>
+	<script type="text/javascript" src="assets/javascripts/create_fortune.js"></script>
+</body>
+</html>

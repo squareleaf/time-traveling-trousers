@@ -1,0 +1,70 @@
+body {
+	background-color: black;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.data-container, .results-container {
+	float: left;
+	margin: 3em 1em;
+	text-align: center;
+}
+
+.data-container {
+  width: 35%;
+}
+
+.results-container {
+  width: 25%;
+	margin: 200px 2em;
+}
+
+h3, .generate-custom {
+	font-family: 'Nosifer', cursive;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+div, p {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.example {
+	font-style: italic;
+}
+
+.generate-custom,
+.dislike-fortune {
+	cursor: pointer;
+  padding: 1em;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+.fortune-result,
+.dislike-fortune {
+	display: none;
+}
+
+.fortune-result {
+	margin: 3em;
+  font-size: 1.5em;
+	font-family: 'Indie Flower', cursive;
+}
+
+.norns {
+	float: left;
+	width: 30%;
+}
+
+.norns img {
+	width: 100%;
+	margin: 3em 1em;
+}
